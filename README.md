@@ -313,3 +313,18 @@ wandb:
 - The [MuJoco Parser Class](./mujoco_env/mujoco_parser.py) is modified from [yet-another-mujoco-tutorial](https://github.com/sjchoi86/yet-another-mujoco-tutorial-v3). 
 - We refer to original tutorials from [lerobot examples](https://github.com/huggingface/lerobot/tree/main/examples).  
 - The assets for plate and mug is from [Objaverse](https://objaverse.allenai.org/).
+
+
+
+
+
+
+
+
+
+##实验过程中遇到的问题
+盘子模组需自己解压
+python用3.12，huggingface把lerobot的最低版本要求提高了
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890 解决git无法clone的问题
+“关掉终端重开”往往能清空之前残留的僵尸进程和冲突的环境变量
